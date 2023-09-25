@@ -16,6 +16,7 @@ jobs:
           aws-region: ##region##
       # sam build
       - run: sam build --use-container
+      - run: echo hello
 
 # Run Unit tests- Specify unit tests here
 
